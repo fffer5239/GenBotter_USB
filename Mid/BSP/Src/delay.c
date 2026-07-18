@@ -40,3 +40,16 @@ void delay_us(uint32_t us)
         __NOP(); // 可选：防止编译器过度优化
     }
 }
+
+/**
+  * @brief  Millisecond delay using delay_us
+  * @param  ms: delay time in milliseconds
+  */
+void delay_ms(uint32_t ms)
+{
+    uint32_t i;
+    for (i = 0; i < ms; i++)
+    {
+        delay_us(1000);
+    }
+}

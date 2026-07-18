@@ -20,6 +20,7 @@
 
 void DWT_Init(void);          /* 初始化DWT */
 void delay_us(uint32_t us);   /* 微秒级延时函数 */
+void delay_ms(uint32_t ms);   /* 毫秒级延时函数 */
 
 #ifdef __cplusplus
 }
