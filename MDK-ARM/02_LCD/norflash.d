@@ -32,5 +32,7 @@
 02_lcd\norflash.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 02_lcd\norflash.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 02_lcd\norflash.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+02_lcd\norflash.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 02_lcd\norflash.o: ../Mid/BSP/Inc/delay.h
 02_lcd\norflash.o: ../Mid/BSP/Inc/norflash.h
+02_lcd\norflash.o: ../Core/Inc/usart.h

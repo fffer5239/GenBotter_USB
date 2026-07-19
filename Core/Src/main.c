@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "spi.h"
+#include "usart.h"
 #include "gpio.h"
 #include "fsmc.h"
 
@@ -93,6 +94,7 @@ int main(void)
   MX_GPIO_Init();
   MX_FSMC_Init();
   MX_SPI2_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   DWT_Init(); // 初始化DWT
 

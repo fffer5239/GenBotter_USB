@@ -25,7 +25,7 @@
 #include "spi.h"
 #include "delay.h"
 #include "norflash.h"
-
+#include "usart.h"
 
 uint16_t g_norflash_type = NM25Q128;     /* Ä¬ÈÏÊÇNM25Q128 */
 
@@ -70,7 +70,7 @@ void norflash_init(void)
         }
     }
 
-    //printf("ID:%x\r\n", g_norflash_type);
+    printf("ID:%x\r\n", g_norflash_type);
 }
 
 /**

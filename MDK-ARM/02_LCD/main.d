@@ -31,7 +31,9 @@
 02_lcd\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 02_lcd\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 02_lcd\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+02_lcd\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 02_lcd\main.o: ../Core/Inc/spi.h
+02_lcd\main.o: ../Core/Inc/usart.h
 02_lcd\main.o: ../Core/Inc/gpio.h
 02_lcd\main.o: ../Core/Inc/fsmc.h
 02_lcd\main.o: ../Mid/BSP/Inc/lcd.h
